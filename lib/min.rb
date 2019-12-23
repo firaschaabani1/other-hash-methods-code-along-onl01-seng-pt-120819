@@ -9,6 +9,6 @@ require 'pry'
 # }
 
 def get_the_min(groceries)
- vegetable.min
+ groceries.collect.min
   #code your solution here!
 end
